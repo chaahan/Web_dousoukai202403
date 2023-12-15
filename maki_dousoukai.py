@@ -24,6 +24,10 @@ st.write("　　１．幹事の飯田、もしくは安達に何でもいいの�
 st.write("　　   LINE,instgram何でもいいです")
 st.write("　　　（代表して一人の人が、「〇〇と××と△△が参加します」みたいなのでもOK）")
 st.write("　 ２．以下入力フォームより入力")
+
+
 name = st.text_input("氏名")
 plan = st.selectbox("参加可否",["参加","シフト次第で参加","参加したけど未定"])
+
+clicked = st.button("登録")
 
